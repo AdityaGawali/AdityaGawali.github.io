@@ -81,6 +81,10 @@ main{
     'bioimage bio bio'
     'job1 job2 job3';
     grid-template-columns: repeat(3,1fr);
+    
+    .interest{
+        margin-left: 2.0em;
+    }
 }
 .bio-image{
     grid-area: bioimage;
@@ -107,7 +111,7 @@ main{
 
 .job
 {
-    background: lighten($primary-color,5);
+    background: lighten($primary-color,2);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
 
@@ -130,6 +134,48 @@ main{
         }
     }
 }
+
+.project1{
+    text-align: center;
+    justify-content: center;
+    p{
+        width: 50%;
+        margin-left: 25rem;
+        justify-content: center;
+        font-size: larger;
+    }
+}
+
+
+
+
+//Contact Page
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+
+    div{
+        font-size: 2rem;
+        border: 3px #fff solid;
+        padding: 1.5rem 2.5rem;
+        margin-bottom: 3rem;
+        @include easeOut;
+
+        &:hover{
+            padding: 0.5rem 1.5;
+            background: $secondary-color;
+            color: set-text-color($secondary-color);
+
+            span{
+                color: set-text-color($secondary-color);
+            }
+        }
+    }
+}
+
 
 //Button 
 .btn{

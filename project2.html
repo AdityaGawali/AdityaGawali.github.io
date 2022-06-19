@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/00c6a659b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Magnes Motors</title>
+</head>
+<body >
+    <div class="overlay"></div>
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+        <div class="menu-branding">
+            <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+            <li class="nav-item ">
+                <a href="index.html" class="nav-link">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a href="about.html" class="nav-link">
+                    About Me
+                </a>
+            </li>
+            <li class="nav-item current">
+                <a href="project.html" class="nav-link">
+                    Projects
+                </a>
+                <li class="nav-item">
+                    <a href="cv.html" class="nav-link">
+                        CV
+                    </a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <main id ="project2">
+        <h1 class="lg-heading text-secondary">Magnes Motors <span class="text-secondary"></span>
+        </h1>
+        <h2 class="sm-heading"> Network monitored Electric Go-Kart Charger and data logger
+        </h2>
+        
+        <div class="project1">
+        <img src="img/projects/project2.jpg" alt="Magnes" class="project2-image">
+        <div class="desc1">
+        <p>This product is a part of my summer internship at Magnes Motors. The PCB so designed is placed near the BMS of the electric Go-Kart. I have used ESP32 to connect to a local network from where commands and error can be logged remotely thus optimising the task of charging and debugging of the Go-karts.</p>
+        <p>Project consisted of two phases, Circuit and PCB desiging and another software programming of ESP32. Product uses FreeRTOS stack to maintain real time behaviour, as it has to cater to user commands from the network and monitor BMS for any error and provide warning at that instant.</p>
+
+    </div>
+        </div>
+ 
+    </main>
+
+    <footer id="main-footer">
+        Copyright &copy; Aditya Gawali, 2022
+    </footer>
+</body>
+<script src="js/main.js"></script> 
+</html>

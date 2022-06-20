@@ -15,7 +15,7 @@
     "deploy": "gh-pages -d dist"
   },
 ```
-
+- In seperate terminal run ```npm run sass``` , this script will run infinetly and will compile ```*.scss``` file into ```/dist/*.css``` 
 
 ### To Add Projects
 - Add project item list in ```project.html```

@@ -125,7 +125,7 @@ main{
 
     img {
         width: 100%;
-        border: 3px #fff solid;
+        border: 3px #fff  solid;
         
         &:hover{
             opacity: 0.5;
@@ -134,19 +134,119 @@ main{
         }
     }
 }
-
+//Individual Projects Layout
 .project1{
-    text-align: center;
-    justify-content: center;
-    p{
-        width: 50%;
-        margin-left: 25rem;
-        justify-content: center;
-        font-size: larger;
-    }
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas:
+    'project1-image'
+    'desc1'
+    'project1a-image';
+    grid-template-columns: 1fr;
+   
+}
+.project1-image {
+    grid-area: project1-image;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border: $secondary-color 3px solid;
+}
+.project1a-image{
+
+    grid-area: project1-image;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border: $secondary-color 3px solid;
+}
+.desc1{
+    grid-area: desc1;
+    font-size: larger;
 }
 
 
+.project2{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas:
+    'project2-image'
+    'desc2';
+    grid-template-columns: 1fr;
+   
+}
+.project2-image {
+    grid-area: project2-image;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border: $secondary-color 3px solid;
+}
+
+.desc2{
+    grid-area: desc2;
+    font-size: larger;
+}
+
+
+.project3{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas:
+    'project3-image'
+    'desc3'
+    'project3a-image';
+    grid-template-columns: 1fr;
+   
+}
+.project3-image {
+    grid-area: project3-image;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border: $secondary-color 3px solid;
+}
+
+.desc3{
+    grid-area: desc3;
+    font-size: larger;
+}
+
+.project3a-image {
+    grid-area: project3a-image;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border: $secondary-color 3px solid;
+}
+
+
+.project4{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas:
+    'project4-image'
+    'desc4';
+    grid-template-columns: 1fr;
+   
+}
+.project4-image {
+    grid-area: project4-image;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border: $secondary-color 3px solid;
+}
+
+.desc4{
+    grid-area: desc4;
+    font-size: larger;
+}
+.cv{
+    border: $secondary-color 3px solid;
+}
+
+//////////////////////////////////
 
 
 //Contact Page

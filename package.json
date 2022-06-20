@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Personal website for portfolio",
   "main": "index.js",
+  "homepage": "https://adityagawali.github.io/",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Aditya Gawali",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1"
   }
 }

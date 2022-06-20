@@ -15,12 +15,20 @@
     "deploy": "gh-pages -d dist"
   },
 ```
-### Images
-- Profile image size: 250px x 250px
-- Profile image small size: 150px x 150px
-- Projects image size: 600px x 450px 
+
 
 ### To Add Projects
 - Add project item list in ```project.html```
 - Create unique ```projectx.html```
 - With a unique class name  in ```projectx.html``` add styling to that class in ```main.scss```
+
+### To Deploy
+- Push the changes to Github repository 
+- From the project directory run ```npm run deploy```
+- Succesfull if ```published``` prompt comes.
+- Check Github repository's setting and in pages tab it is set to ```gh-pages``` 
+
+### Images
+- Profile image size: 250px x 250px
+- Profile image small size: 150px x 150px
+- Projects image size: 600px x 450px 

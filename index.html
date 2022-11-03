@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/00c6a659b6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
-    <title>Aditya's Website</title>
-    <link rel="icon" type="image/x-icon" href="./img/plane-solid.svg">
+    <title>About</title>
 </head>
-<body id="bg-img">
+<body id="bg-img" >
     <div class="overlay"></div>
     <header>
         <div class="menu-btn">
@@ -23,13 +22,13 @@
             <div class="portrait"></div>
         </div>
         <ul class="menu-nav">
-            <li class="nav-item current">
-                <a href="index.html" class="nav-link">
+            <li class="nav-item ">
+                <a href="home.html" class="nav-link">
                     Home
                 </a>
             </li>
-            <li class="nav-item">
-                <a href="about.html" class="nav-link">
+            <li class="nav-item current">
+                <a href="index.html" class="nav-link">
                     About Me
                 </a>
             </li>
@@ -50,26 +49,63 @@
         </ul>
     </nav>
     </header>
-    <main id ="home">
-        <h1 class="lg-heading">Aditya <span class="text-secondary">Gawali</span>
+    <main id ="about">
+        <h1 class="lg-heading">About <span class="text-secondary">Me</span>
         </h1>
-        <h2 class="sm-heading">Embedded System Developer, Programmer & Aviation geek
+        <h2 class="sm-heading"> 
         </h2>
-        <div class="icons">
-            <a href="mailto:adityagawali@vt.edu">
-                <i class="fa-solid fa-envelope fa-2x"></i>
-            </a>
-            
-            <a href="https://github.com/AdityaGawali">
-                <i class="fa-brands fa-github fa-2x"></i>
-            </a>
-            
-            <a href="https://www.linkedin.com/in/adityagawali/">
-                <i class="fa-brands fa-linkedin fa-2x"></i>
-            </a>
-        </div>
         
+        <div class="about-info">
+            <img src="img/profile.jpg" alt="Aditya Gawali" class="bio-image">
+            
+            <div class="bio">
+                <h2 class="text-secondary">BIO</h2>
+                <p> I am a graduate student at Virginia Tech seeking a Master’s degree in Computer Engineering with a concentration in Computer/Embedded Systems.</p>
+
+                <p> I’ve been interested in embedded systems since my first year of undergrad. This enthusiasm aided me in obtaining intriguing industrial internships, research internships, and projects in the field of embedded systems. This, in turn, prepared me to be a competent embedded software developer to explore and learn more in detail.</p>
+                <p>My research interests are</p>
+                <li class="interest">
+                    Real Time Embedded Systems
+                </li>
+                <li class="interest">
+                    Real time Operating Systems
+                </li>
+                <li class="interest">
+                    Autonomous Systems
+                </li>
+                <li class="interest">
+                    Robotics
+                </li>
+            </div>
+            
+            <div class="job job-1">
+                <h3> <b> Electrical System Design Engineer, L&T Limited </b> </h3>
+                <p> Conducted various testing operations of individual electronic and controller units.</p>
+                <p> Integrated sub-modules and units into the complete system for trials and operations.</p>
+                <p> Designed and deployed highly reliable and robust electronics system and units for heavy engineered products</p> 
+            </div>
+
+
+            <div class="job job-2">
+                <h3> <b>Embedded Software Intern, Magnes Motors Pvt Ltd </b></h3>
+                <p>Implemented data logging automated solutions using wifi-equipped ESP32 and transmitting data to a centralized unit for future data analysis and testing</p>
+                <p> Developed a Android GUI app for the user to visualise the health and essential data of the vehicle</p>
+                <p> Designed intelligent modules using ESP-32 microcontroller for Battery Management System (BMS) thus increasing operational efficiency by ~20%</p>
+                <p> Refactored legacy round-robin architecture to real-time architecture using FreeRTOS resulting in decreasing latency by ~15%</p>
+            </div>
+            
+            <div class="job job-3">
+                <h3> <b>Research Intern, VJTI CoE-CNDS lab </b> </h3>
+                <p>Researched on Field Programmable Gate Arrays and implemented designs and electrical interfaces on Spartan 3E and Kintex 7</p>
+                <p>Implemented simulation of AES encryption and decryption on Kintex 7 as co-processor on Vivado design suite</p>
+                </div>
+
+        </div>
     </main>
+
+    <footer id="main-footer">
+        Copyright &copy; Aditya Gawali, 2022
+    </footer>
 </body>
 <script src="js/main.js"></script> 
 </html>
